@@ -1,16 +1,12 @@
+# Modern C++ Notebooks
+
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Modern C++ Notebooks by Adam Gatt is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-&nbsp;
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adamagatt/modern_cpp_notebooks/HEAD) [These notebooks can be executed on Binder.](https://mybinder.org/v2/gh/adamagatt/modern_cpp_notebooks/HEAD) Click the link to host them in an interactive environment that runs right in your browser!
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adamagatt/modern_cpp_notebooks/HEAD)
-
-[These notebooks can be executed on Binder.](https://mybinder.org/v2/gh/adamagatt/modern_cpp_notebooks/HEAD) Click the link to host them in an interactive environment that runs right in your browser!
-
-&nbsp;
-
-# Modern C++ Notebooks
+---
 
 These are a series of Jupyter notebooks intended for bringing long-time C++ developers quickly up to speed with important developments from C++11/14.
 
