@@ -1,37 +1,37 @@
 name: cling
 channels:
-  - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
-  - _openmp_mutex=4.5=1_gnu
-  - binutils_impl_linux-64=2.35.1=h193b22a_2
-  - binutils_linux-64=2.35=h67ddf6f_30
-  - ca-certificates=2020.12.5=ha878542_0
-  - clang_variant=1.0=cling_v0.8
-  - clangdev=5.0.0=h43905f9_1012
-  - cling=0.8=hf817b99_0
-  - cppzmq=4.7.1=hf7cf922_2
-  - gcc_impl_linux-64=9.3.0=h70c0ae5_18
-  - gcc_linux-64=9.3.0=hf25ea35_30
-  - gxx_impl_linux-64=9.3.0=hd87eabc_18
-  - gxx_linux-64=9.3.0=h3fbe746_30
-  - kernel-headers_linux-64=2.6.32=h77966d4_13
-  - ld_impl_linux-64=2.35.1=hea4e1c9_2
-  - libgcc-devel_linux-64=9.3.0=h7864c58_18
-  - libgcc-ng=9.3.0=h2828fa1_18
-  - libgomp=9.3.0=h2828fa1_18
-  - libsodium=1.0.18=h36c2ea0_1
-  - libstdcxx-devel_linux-64=9.3.0=hb016644_18
-  - libstdcxx-ng=9.3.0=h6de172a_18
-  - libuuid=2.32.1=h7f98852_1000
-  - nlohmann_json=3.9.1=he1b5a44_0
-  - openssl=1.1.1j=h7f98852_0
-  - pugixml=1.11.4=h9c3ff4c_0
-  - sysroot_linux-64=2.12=h77966d4_13
-  - xeus=1.0.1=h78d96c3_1
-  - xeus-cling=0.12.0=h5a79028_1
-  - xtl=0.7.2=h4bd325d_1
-  - zeromq=4.3.4=h9c3ff4c_0
-  - zlib=1.2.11=h516909a_1010
-prefix: /home/adamgatt/miniconda3/envs/cling
+  - _libgcc_mutex==0.1=conda_forge
+  - _openmp_mutex==4.5=1_gnu
+  - binutils_impl_linux-64==2.35.1=h193b22a_2
+  - binutils_linux-64==2.35=h67ddf6f_30
+  - ca-certificates==2024.2.2
+  - clang_variant==1.0=cling_v0.8
+  - clangdev==5.0.0=h43905f9_1012
+  - cling==0.8=hf817b99_0
+  - cppzmq==4.7.1=hf7cf922_2
+  - gcc_impl_linux-64==9.3.0=h70c0ae5_18
+  - gcc_linux-64==9.3.0=hf25ea35_30
+  - gxx_impl_linux-64==9.3.0=hd87eabc_18
+  - gxx_linux-64==9.3.0=h3fbe746_30
+  - kernel-headers_linux-64==2.6.32=h77966d4_13
+  - ld_impl_linux-64==2.35.1=hea4e1c9_2
+  - libgcc-devel_linux-64==9.3.0=h7864c58_18
+  - libgcc-ng==9.3.0=h2828fa1_18
+  - libgomp==9.3.0=h2828fa1_18
+  - libsodium==1.0.18=h36c2ea0_1
+  - libstdcxx-devel_linux-64==9.3.0=hb016644_18
+  - libstdcxx-ng==9.3.0=h6de172a_18
+  - libuuid==2.32.1=h7f98852_1000
+  - nlohmann_json==3.9.1=he1b5a44_0
+  - openssl==1.1.1k
+  - pugixml==1.11.4=h9c3ff4c_0
+  - sysroot_linux-64==2.12=h77966d4_13
+  - xeus-cling==0.12.1
+  - xeus==1.0.1=h78d96c3_1
+  - xtl==0.7.2=h4bd325d_1
+  - zeromq==4.3.4=h9c3ff4c_0
+  - zlib==1.2.11=h516909a_1010
+  - jupyterlab
+prefix: /home/deck/miniconda3/envs/cling
