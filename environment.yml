@@ -1,8 +1,9 @@
 name: cling
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python=3.12
+  - python=3.10
   - jupyterlab
   - xeus-cling
 prefix: /home/deck/miniconda3/envs/cling
